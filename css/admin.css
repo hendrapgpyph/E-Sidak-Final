@@ -1,0 +1,76 @@
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:active
+ {
+  background-color: #fff;
+}
+.dropdown-menu {
+  background-color: #000;
+}
+.dropdown-menu li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.container-button-cetak {
+  margin: 0 auto 20px;
+}
+.container-button-cetak-rb {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+.btn-group .btn {
+  color: #fff;
+  font-weight: bold;
+}
+.btn-group a {
+  text-decoration: none;
+  color: #fff;
+}
+.btn-group .btn i {
+  padding-right: 5px;
+}
+.btn-cw {
+  background: #1e4496;
+}
+.btn-ce {
+  background: #207347;
+}
+.btn-nk {
+  background: #d60000;
+}
+.container-button-cetak .btn-tambah {
+  float: right;
+  background: #68686b;
+}
+
+.table-striped.database tbody td:last-child {
+    text-align: right;
+}
+.form-content.tambah{
+    margin: 40px 0;
+}
+.form-content.tambah button.btn {
+  bottom: -18px;
+}
+.form-content.tambah i.fa-eye,
+.form-content.tambah i.fa-eye-slash {
+  bottom: 150px;
+  right: 35px;
+}
+.form-content.tambah.user i.fa-eye,
+.form-content.tambah.user i.fa-eye-slash {
+  bottom: 70px;
+  right: 35px;
+}
+.btn-back {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    background: #000;
+    border: 0;
+    color: #fff;
+    padding: 5px 12px;
+    font-size: 18px;
+    border-radius: 5px;
+}
