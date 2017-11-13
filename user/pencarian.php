@@ -78,7 +78,13 @@ if(@$_SESSION['admin']) {
           <li><a href="blacklist.php">Blacklist</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="sistem_info_siswa.php">SI Siswa</a></li>
+          <?php
+            if(@$_SESSION['guru']) {
+            echo "<li><a href='sistem_info_siswa.php'>SI Siswa</a></li>";
+           }else{
+            echo "";
+           }
+          ?>
           <li><a href="#u">Hi, <?php echo $data['username']; ?></a></li>
           <li><a href="../config/logout.php">Logout &nbsp;<i class="fa fa-sign-out"></i></a></li>
         </ul>
